@@ -9,10 +9,11 @@
     }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and ( max-width: 799px) and(min-width:600){
     .box {
         width: 80%;
         margin: auto;
+        background-color: blue;
     }
 }
 
@@ -20,14 +21,5 @@
     .box {
         width: 50%;
         background-color: green;
-    }
-}.box {
-    background-color: blue;
-    width: 100%;
-}
-
-@media screen and (max-width: 599px) {
-    .box {
-        background-color: red;
     }
 }
